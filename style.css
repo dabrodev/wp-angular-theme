@@ -1,0 +1,25 @@
+/*
+Theme Name: WP Single Page App
+Theme URI: http://www.metapartner.com/wp-single-page-app
+Description:  Single Page Application Theme based on AngularJS, Bootstrap and WP-API. Based on AngularJS Wordpress Theme from the course AngularJS and WordPress: Building a Single-Page Application.
+Version: 1.0
+Tags: WordPress, AngularJS, JavaScript, RESTful, API, Angular, Client Side Application, Single Page Application
+Author: Damian Dabrowski
+Author URI: http://www.metapartner.com
+
+
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+*/
+
+/* HTML 5*/
+header, article, footer, section, nav{
+	display:block;	
+}
+.clear{
+	clear:both;	
+}
+
+
+/******** ALL ADDITIONAL STYLING ARE DONE IN THE more-style.less/css FILES *******/
