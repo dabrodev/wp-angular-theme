@@ -1,12 +1,24 @@
 /*
-Theme Name: WP Single Page App
-Theme URI: http://www.metapartner.com/wp-single-page-app
-Description:  Single Page Application Theme based on AngularJS, Bootstrap and WP-API. Based on AngularJS Wordpress Theme from the course AngularJS and WordPress: Building a Single-Page Application.
-Version: 1.0
+Theme Name: AngularJS WP Theme - Lynda.com
+Theme URI: http://www.roysivan.com/angular-wordpress-theme
+Description: Bringing AngularJS technology to WordPress. Theme front end is built using Twitter Bootstrap with some minor styling done by Roy Sivan. This theme is built to help build a Single Page Application using WordPress and AngularJS.
+Version: 5.0
 Tags: WordPress, AngularJS, JavaScript, RESTful, API, Angular, Client Side Application, Single Page Application
-Author: Damian Dabrowski
-Author URI: http://www.metapartner.com
+Author: Roy Sivan
+Author URI: http://www.roysivan.com
 
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 License: GNU General Public License v2.0
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -22,4 +34,4 @@ header, article, footer, section, nav{
 }
 
 
-/******** ALL ADDITIONAL STYLING ARE DONE IN THE more-style.less/css FILES *******/
+/******** ALL FURTHER STYLING SHOULD BE DONE IN THE more-style.less/css FILES *******/

@@ -1,0 +1,13 @@
+<h1>{{page_title}}</h1>
+
+<article ng-repeat="post in posts">
+	<h2>{{post.title.rendered}}</h2>
+	<div ng-bind-html="post.content.rendered | to_trusted"></div>
+	<div ng-if="post.acf.name">
+		<p>{{post.acf.name}}</p>
+		<p>{{post.acf.title}}</p>
+		<img ng-src="{{post.acf.image}}" />
+	</div>
+	<div ng-if="!post.acf.name">No Name</div>
+	<a ui-sref="detail({id: post.id})">Click here to read more</a>
+</article>
